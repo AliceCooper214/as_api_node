@@ -5,3 +5,6 @@ export class ResponseEntity {
   msg = "ok";
   constructor() {}
 }
+
+const randomString = () =>
+  Math.random().toString(36).substring(2).split('').join('')
